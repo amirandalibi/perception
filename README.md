@@ -6,6 +6,8 @@ A Wordpress Plugin which classifies Media Library images by detecting individual
 
 Detects broad sets of categories within an image, which range from modes of transportation to animals, popular product logos, popular natural and man-made structures, topical entities like celebrities, or news events.
 
+![Working Demo](https://s3.amazonaws.com/accolade-ny3/img/_89fcb4321.gif)
+
 ## Requirements
 
 Wordpress >= 4.7
