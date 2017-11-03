@@ -10,8 +10,8 @@ Detects broad sets of categories within an image, which range from modes of tran
 
 ## Requirements
 
-Wordpress >= 4.7
-Composer
+* Wordpress >= 4.7
+* Composer
 
 ## Important Notes
 
