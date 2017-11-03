@@ -5,9 +5,6 @@
 	background-color: #f7f7f7;
 	width: 100%;
 	max-width: 900px;
-}
-
-.perception-setting *:not(a){
 	font-family: 'Roboto', sans-serif;
 	color: #4A5960;	
 	font-weight: 400;
@@ -33,7 +30,7 @@
 
 .perception-setting__button{
 	background: #039be5;
-	color: white;
+	color: white !important;
 	text-transform: uppercase;
 	padding: 15px;
 	display: inline-block;
@@ -41,7 +38,9 @@
 	text-decoration: none;
 }
 
-.perception-setting__button:hover{
+.perception-setting__button:hover,
+.perception-setting__button:active,
+.perception-setting__button:visited{
 	color: white;
 }
 
@@ -53,4 +52,17 @@
 .perception-setting__number{
 	list-style-type: decimal;
 	padding-left: 20px;
+}
+
+.perception-setting input[type=text]{
+	width: 100%;
+	max-width: 550px;
+	height: 35px;
+	display: inline-block;
+}
+
+.perception-setting__button.upload-api-key{
+	height: 35px;
+	padding: 0 10px;
+	margin: 0;
 }

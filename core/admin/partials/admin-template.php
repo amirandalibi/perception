@@ -67,7 +67,7 @@
 			<label>
 				<input name="google-vision-json-path" type="text" class="google-vision-api-json" value="<?php echo get_option( 'google-vision-json-path' ); ?>">
 				<input name="google-vision-json-id" type="hidden" class="google-vision-api-json-id" value="<?php echo get_option( 'google-vision-json-id' ); ?>">
-				<input type="button" value="Upload JSON" class="button upload-api-key">
+				<input type="button" value="Upload JSON" class="perception-setting__button upload-api-key">
 			</label>
 			<?php submit_button(); ?>
   	</form>
