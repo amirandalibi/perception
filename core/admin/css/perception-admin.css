@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500');
+
+.perception-setting{
+	padding: 20px;
+	background-color: #f7f7f7;
+	width: 100%;
+	max-width: 900px;
+	font-family: 'Roboto', sans-serif;
+	color: #4A5960;	
+	font-weight: 400;
+}
+
+.perception-setting__article--upload{
+	margin-top: 40px;
+
+}
+.perception-setting hr{
+	margin-bottom: 15px;
+}
+
+.perception-setting img{
+	width: 100%;
+	max-width: 100%;
+	margin: 20px 0;
+}
+
+.perception-settin a{
+	color: #039be5;
+}
+
+.perception-setting__button{
+	background: #039be5;
+	color: white !important;
+	text-transform: uppercase;
+	padding: 15px;
+	display: inline-block;
+	margin: 5px 0 10px;
+	text-decoration: none;
+}
+
+.perception-setting__button:hover,
+.perception-setting__button:active,
+.perception-setting__button:visited{
+	color: white;
+}
+
+.perception-setting__bullet{
+	list-style-type: disc;
+	padding-left: 20px;
+}
+
+.perception-setting__number{
+	list-style-type: decimal;
+	padding-left: 20px;
+}
+
+.perception-setting input[type=text]{
+	width: 100%;
+	max-width: 550px;
+	height: 35px;
+	display: inline-block;
+}
+
+.perception-setting__button.upload-api-key{
+	height: 35px;
+	padding: 0 10px;
+	margin: 0;
+}

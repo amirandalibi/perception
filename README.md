@@ -1,4 +1,4 @@
-# Perception
+# perception
 
 A Wordpress Plugin which classifies Media Library images by detecting individual objects and faces within images using [Google Cloud Vision API](https://cloud.google.com/vision/).
 
@@ -11,6 +11,7 @@ Detects broad sets of categories within an image, which range from modes of tran
 ## Requirements
 
 Wordpress >= 4.7
+Composer
 
 ## Important Notes
 
@@ -23,9 +24,6 @@ To bettter understanding their pricing table, here are the list of the features 
 * Logo Detection
 * Web Detection 
 
-
-## Before you begin
-If you haven't done so already, set up your project and create a Google Cloud Storage bucket, as explained below.
 
 #### Set up your project
 
@@ -53,4 +51,4 @@ Contributions are welcome. Create a pull request to get statred.
 
 ## Issues
 
-Please report any issues [here](https://github.com/amirandalibi/Perception/issues).
+Please report any issues [here](https://github.com/amirandalibi/perception/issues).
