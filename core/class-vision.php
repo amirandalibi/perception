@@ -19,7 +19,8 @@ class vision_api {
 
 	function __construct(){
 		
-		if (is_admin()){
+
+		if (is_admin() && get_option('google-vision-json-id')){
 			add_action('added_post_meta', array($this, 'insert_post_meta_from_vision'), 10, 4);		
 		}
 	}

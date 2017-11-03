@@ -40,7 +40,7 @@ if( !class_exists('perception') ):
 		 * @access private
 		 */
 
-		function alter_media_library_search( $search ) {
+		static function alter_media_library_search( $search ) {
 			global $wp_query, $wpdb;
 
 			$vars = $wp_query->query_vars;
