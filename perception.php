@@ -15,7 +15,7 @@ Text Domain: perception
 
 require_once ('core/class-perception.php');
 require ('vendor/autoload.php');
-
+define('PLUGIN_ROOT', plugin_dir_url( __FILE__ ));
 
 function perception() {
 	

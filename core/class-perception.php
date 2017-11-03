@@ -23,9 +23,10 @@ if( !class_exists('perception') ):
 		private function load_dependencies() {
 			require_once ('class-vision.php');
 			require_once ('admin/class-perception-admin.php');
-
 			
 			$this->vision = new vision_api();
+			$this->admin = new perception_admin();
+			
 			if( is_admin() ){
 				add_filter('posts_clauses', array( __CLASS__ , 'alter_media_library_search'), 20, 1 );
 			}
