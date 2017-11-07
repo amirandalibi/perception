@@ -17,7 +17,7 @@ Detects broad sets of categories within an image, which range from modes of tran
 
 Please note that Google Cloud Vision API is a commercial service and while it's free for first 1000 units/month but you will be charged for any request after that. See their pricing [here](https://cloud.google.com/vision/pricing#prices).
 
-To bettter understanding their pricing table, here are the list of the features we use in this plugin:
+To better understand their pricing table, here is the list of the features we use in this plugin:
 
 * Label Detection
 * Landmark Detection
@@ -33,7 +33,7 @@ To bettter understanding their pricing table, here are the list of the features 
 
 #### Authentication
 
-For using this plugin, You need to provide a JSON file which contains your Project ID and Key. By following below steps you can obtain them.
+For using this plugin, You need to provide a JSON file which contains your Project ID and Key. By following the steps below you can obtain them.
 
 1. In Cloud Platform Console, navigate to the [Create service account key](https://console.cloud.google.com/apis/credentials/serviceaccountkey) page.
 2. From the **Service account** dropdown, select **New service account**.
@@ -47,7 +47,7 @@ Keep the **JSON** file on your computer, you will need it during the plugin inst
 
 ## Contributing
 
-Contributions are welcome. Create a pull request to get statred.
+Contributions are welcome. Create a pull request to get started.
 
 ## Issues
 
