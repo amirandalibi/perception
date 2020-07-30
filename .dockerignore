@@ -1,0 +1,8 @@
+.git
+.gitattributes
+.github
+.gitignore
+Dockerfile
+Makefile
+README.md
+vendor
