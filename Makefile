@@ -23,7 +23,7 @@ install:
 	docker exec -it $$(docker ps -aqf "name=perception_wp") /bin/bash -c "cd wp-content/plugins/perception && composer install --no-suggest --no-scripts"
 
 tail:
-	docker log perception_wp -f
+	docker logs -f perception_wp
 
 down:
 	docker-compose down
