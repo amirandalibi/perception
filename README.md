@@ -12,15 +12,15 @@ Detects broad sets of categories within an image, which range from modes of tran
 
 * [Docker](https://www.docker.com) `> 18.09`
 
-## Local Developement
+## Local Development
 
-Docker is all you need for local developement. With the docker daemon running, build and run the application using:
+Docker is all you need for local development. With the docker daemon running, build and run the application using:
 ```sh
 make start
 ```
-the above command will build the image for both Wordpress and MySQL and run the containers and install Composer dependecies inside `src` folder.
+the above command will build the image for both Wordpress and MySQL and run the containers and install Composer dependencies inside `src` folder.
 
-Your Wordpress isntance will be available on `http://localhost:8000`
+Your Wordpress instance will be available on `http://localhost:8000`
 
 To see the full list of available commands run `make help`
 
