@@ -1,14 +1,14 @@
 {
-    "name": "accolade/perception",
-    "description": "A Wordpress plugin to detect broad sets of objects in your media library images, from flowers, animals, or transportation to thousands of other object categories commonly found within images.",
-    "require": {
-      "google/cloud-vision": "^0.5.0"
-		},
-    "license": "GPL-2.0+",
-    "authors": [
-        {
-					"name": "Amir Andalibi",
-					"homepage": "https://amirandalibi.com"
-        }
-    ]
+  "name": "accolade/perception",
+  "description": "A Wordpress plugin to detect broad sets of objects in your media library images, from flowers, animals, or transportation to thousands of other object categories commonly found within images.",
+  "require": {
+    "google/cloud-vision": "^0.5.0"
+  },
+  "license": "GPL-2.0+",
+  "authors": [
+    {
+      "name": "Amir Andalibi",
+      "homepage": "https://amirandalibi.com"
+    }
+  ]
 }

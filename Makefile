@@ -12,7 +12,7 @@ help:
 	@echo ""
 	@echo "---------------------------------"
 	@echo ""
- 
+
 start:
 	./scripts/start.sh
 
