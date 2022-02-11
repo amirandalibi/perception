@@ -20,7 +20,7 @@ build:
 	docker-compose up -d --build
 
 install:
-	docker exec -it $$(docker ps -aqf "name=perception_wp") /bin/bash -c "cd wp-content/plugins/perception && composer install --no-suggest --no-scripts"
+	docker exec -it $$(docker ps -aqf "name=perception_wp") /bin/bash -c "cd wp-content/plugins/perception && composer install --no-scripts"
 
 tail:
 	docker logs -f perception_wp
