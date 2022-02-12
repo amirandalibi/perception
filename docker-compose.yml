@@ -2,7 +2,7 @@ version: '3.3'
 
 services:
   db:
-    image: mysql:5.7
+    image: mysql/mysql-server:5.7.37
     volumes:
       - mysql_data:/var/lib/mysql
     restart: always
@@ -20,7 +20,6 @@ services:
       - db
     build:
       context: ./
-    image: wp
     ports:
       - "8000:80"
     restart: always
