@@ -1,5 +1,0 @@
-{
-    "require": {
-        "google/cloud-vision": "^1.5"
-    }
-}
