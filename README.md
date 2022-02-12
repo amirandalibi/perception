@@ -2,6 +2,9 @@
 
 A Wordpress Plugin which classifies Media Library images by detecting individual objects and faces within images using [Google Cloud Vision API](https://cloud.google.com/vision/).
 
+## Installation
+This repository is the source code and won't work on your website, if you are looking for the plugin itself you can download the latest version from [here](https://github.com/amirandalibi/perception/releases/latest).
+
 ## Features
 
 Detects broad sets of categories within an image, which range from modes of transportation to animals, popular product logos, popular natural and man-made structures, topical entities like celebrities, or news events.
