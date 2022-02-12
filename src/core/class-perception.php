@@ -6,7 +6,7 @@ if (!class_exists('perception')) :
     protected $loader;
     protected $vision;
     protected $plugin_name = 'perception';
-    protected $version = '1.0.0';
+    protected $version = '1.0.1-beta';
 
     public function __construct() {
       $this->load_dependencies();
