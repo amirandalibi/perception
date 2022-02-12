@@ -20,7 +20,6 @@ services:
       - db
     build:
       context: ./
-    image: wp
     ports:
       - "8000:80"
     restart: always
